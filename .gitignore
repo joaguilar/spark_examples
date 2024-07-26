@@ -168,3 +168,8 @@ spark-3.5.1-bin-hadoop3/
 padron_completo/
 ml-latest-small/
 spark-env/
+data/simulated_stream/
+data/scaler_model
+data/datos_banco.csv
+data/datos_empleados.csv
+path/
