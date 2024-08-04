@@ -103,3 +103,27 @@ Y deberia de poder cargarlo.
 ## Notas
 
 Nota: En caso que de un error sobre `py4j`, tratar de reinstalarlo.
+
+# Spark NLP
+
+Para utilizar Spark NLP (Notebook #21) Seguir las siguientes instrucciones
+
+## Ambiente
+
+```
+conda create -p ./.sparknlp python=3.11 -y
+conda activate ./.sparknlp
+```
+Instalar las dependencias:
+```
+pip install spark-nlp==5.4.0 pyspark==3.3.1 transformers tensorflow jupyter findspark numpy
+```
+
+Nota: Puede ser necesario crear un nuevo ipkernel para que utilice el ambiente, se hace con la instrucción:
+
+```
+python -m ipykernel install --user --name=sparknlp_venv --display-name="Python (Spark NLP)"
+```
+Then make sure you select the kernel:
+
+![Select NLP Kernel](img/select_nlp_kernel.png)
