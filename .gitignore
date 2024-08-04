@@ -162,7 +162,7 @@ cython_debug/
 #.idea/
 
 kafka_2.13-3.7.0/
-kafka-manager
+kafka-manager/
 spark-exercises
 spark-3.5.1-bin-hadoop3/
 padron_completo/
@@ -170,6 +170,17 @@ ml-latest-small/
 spark-env/
 data/simulated_stream/
 data/scaler_model
-data/datos_banco.csv
-data/datos_empleados.csv
+data/datos_banco.csv/
+data/datos_empleados.csv/
 path/
+.sparknlp/
+data/lr-pipeline-model/
+data/sf-airbnb-clean.parquet
+data/*ubyte
+datos_banco.csv/
+datos_empleados.csv
+spark-3.5.1-bin-hadoop3.tgz
+kafka_2.13-3.7.0.tgz
+data/.DS_Store
+data/groceries.csv
+data/iris.csv
